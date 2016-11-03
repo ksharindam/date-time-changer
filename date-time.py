@@ -1,6 +1,22 @@
 #!/usr/bin/env python
 """
 Name = Date Time Changer
+LICENSE = GPLv3
+   Copyright (C) 2016 Arindam Chaudhuri <ksharindam@gmail.com>
+  
+   This program is free software: you can redistribute it and/or modify
+   it under the terms of the GNU General Public License as published by
+   the Free Software Foundation, either version 3 of the License, or
+   (at your option) any later version.
+  
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU General Public License for more details.
+  
+   You should have received a copy of the GNU General Public License
+   along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
 """
 # -*- coding: utf-8 -*-
 
@@ -35,6 +51,7 @@ class Ui_Dialog(object):
         self.gridLayout = QtGui.QGridLayout(Dialog)
         self.gridLayout.setObjectName(_fromUtf8("gridLayout"))
         self.spinBox_4 = QtGui.QSpinBox(Dialog)
+        self.spinBox_4.setAlignment(QtCore.Qt.AlignCenter)
         self.spinBox_4.setMinimum(1980)
         self.spinBox_4.setMaximum(2099)
         self.spinBox_4.setObjectName(_fromUtf8("spinBox_4"))
@@ -45,6 +62,7 @@ class Ui_Dialog(object):
         self.comboBox.addItem(_fromUtf8(""))
         self.gridLayout.addWidget(self.comboBox, 1, 2, 1, 1)
         self.spinBox_2 = QtGui.QSpinBox(Dialog)
+        self.spinBox_2.setAlignment(QtCore.Qt.AlignCenter)
         self.spinBox_2.setMaximum(59)
         self.spinBox_2.setObjectName(_fromUtf8("spinBox_2"))
         self.gridLayout.addWidget(self.spinBox_2, 1, 1, 1, 1)
@@ -55,6 +73,7 @@ class Ui_Dialog(object):
         self.label_2.setObjectName(_fromUtf8("label_2"))
         self.gridLayout.addWidget(self.label_2, 2, 0, 1, 1)
         self.spinBox = QtGui.QSpinBox(Dialog)
+        self.spinBox.setAlignment(QtCore.Qt.AlignCenter)
         self.spinBox.setMinimum(1)
         self.spinBox.setMaximum(12)
         self.spinBox.setObjectName(_fromUtf8("spinBox"))
@@ -65,6 +84,7 @@ class Ui_Dialog(object):
         self.buttonBox.setObjectName(_fromUtf8("buttonBox"))
         self.gridLayout.addWidget(self.buttonBox, 5, 0, 1, 3)
         self.spinBox_3 = QtGui.QSpinBox(Dialog)
+        self.spinBox_3.setAlignment(QtCore.Qt.AlignCenter)
         self.spinBox_3.setMinimum(1)
         self.spinBox_3.setMaximum(31)
         self.spinBox_3.setObjectName(_fromUtf8("spinBox_3"))
@@ -79,6 +99,7 @@ class Ui_Dialog(object):
         self.label_5.setObjectName(_fromUtf8("label_5"))
         self.gridLayout.addWidget(self.label_5, 3, 2, 1, 1)
         self.comboBox_2 = QtGui.QComboBox(Dialog)
+        self.comboBox_2.setMaxVisibleItems(12)
         self.comboBox_2.setObjectName(_fromUtf8("comboBox_2"))
         self.comboBox_2.addItem(_fromUtf8(""))
         self.comboBox_2.addItem(_fromUtf8(""))
